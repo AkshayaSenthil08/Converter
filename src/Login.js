@@ -9,7 +9,7 @@ const Login = () => {
     const names=localStorage.getItem("name")
     const passes=localStorage.getItem("pass")
 
-    if(names==sname && passes==spass){
+    if(names===sname && passes===spass){
       console.log("yes")
     }
     else{

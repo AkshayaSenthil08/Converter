@@ -8,7 +8,7 @@ const Sign = () => {
 const[pass,setPass]=useState("")
 
   function submit(){
-    if(name!==" " && pass!=" "){
+    if(name!==" " && pass!==" "){
       alert("Signed in Successfuully!!")
     }
   }
